@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    window.onload = function () {
+        console.log('start');
+        var img = document.createElement('img')
+        img.onload = function () {
+            console.log('loaded')
+        }
+        img.src = '/xxx.png'
+        console.log('end')
+    }
+</script>
+</body>
+</html>

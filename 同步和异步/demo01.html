@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    window.onload = function () {
+        // 异步 不阻塞代码的执行
+        console.log(100)
+        setTimeout(function () {
+           console.log(200)
+        }, 1000);
+        console.log(300)
+    }
+</script>
+</body>
+</html>
